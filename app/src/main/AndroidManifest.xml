@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".GuardarEstadoActivity" />
         <activity android:name=".Actividad1Activity" />
-        <activity android:name=".Actividad2Activity"></activity>
+        <activity android:name=".Actividad2Activity" />
+        <activity android:name=".BloqueoMainThreadActivity"></activity>
     </application>
 
 </manifest>
