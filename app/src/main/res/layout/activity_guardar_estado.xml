@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GuardarEstadoActivity">
+<TextView
+    android:id="@+id/textoResultado"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnSumar"
+            android:text="Sumar 1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/btnRestar"
+            android:text="Restar 1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/btnReiniciar"
+            android:text="Reiniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <ToggleButton
+        android:id="@+id/habilitarGuardarDatos"
+        android:checked="false"
+        android:textOn="Se guardará el estado cuando gire la pantalla"
+        android:textOff="NO se guardará el estado cuando gire la pantalla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
