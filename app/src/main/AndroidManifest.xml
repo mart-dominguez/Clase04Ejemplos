@@ -19,7 +19,11 @@
         <activity android:name=".GuardarEstadoActivity" />
         <activity android:name=".Actividad1Activity" />
         <activity android:name=".Actividad2Activity" />
-        <activity android:name=".BloqueoMainThreadActivity"></activity>
+        <activity android:name=".BloqueoMainThreadActivity" />
+
+        <service
+            android:name=".MyIntentService"
+            android:exported="false"></service>
     </application>
 
 </manifest>
